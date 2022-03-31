@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JAKOB ZETZSCHE || JAZZEUS</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Bilder/jzlogo.JPG">
+    <link type="text/css" rel="stylesheet" href="neonbutton.css">
+    <link rel="stylesheet" href="particle.css">
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=JetBrains+Mono:ital,wght@1,800&display=swap"
+          rel="stylesheet">
+    <div id="particles-js"></div>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+    <style> p {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        color: fuchsia;
+    }</style>
+</head>
+
+
+<style>
+    .column {
+        flex: 30%;
+        padding: 1px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    img {
+        width: flex;
+    }
+
+    .container {
+        display: flex;
+        margin-bottom: 0px;
+    }
+
+    .container1 {
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+
+    h1 {
+        text-align: center;
+        color: #00FF00;
+        font-size: 400%;
+    }
+
+    h2 {
+        margin-top: 0px;
+        text-align: center;
+        color: #03e4be;
+        font-size: 30px;
+    }
+
+    h3 {
+        margin-bottom: 0px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    images {
+        text-align: center;
+    }
+
+    footer {
+        position: fixed;
+        text-align: right;
+        font-size: 70%;
+        display: block;
+        color: #cbf700;
+    }
+</style>
+
+<body>
+
+<div class="text">
+
+    <h1>Jakob Zetzsche
+        <div style="color: red">
+            <div style="font-size: 30px;">(Jazzeus)</div>
+        </div>
+    </h1>
+
+    <h2>Website not finished yet! <br> But COMING SOON!</h2>
+    <h3>New website is launched in: (1st May 2022)</h3>
+    <p id="demo"></p>
+    <hr>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("May 1, 2022 12:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+            // If the count down is over, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+    <images>
+
+        <div class="container">
+            <div class="column">
+                <div title="Jazzeus#9999"><a
+                        href="https://discordapp.com/users/601715164835741696"><span></span><span></span><img
+                        src="Bilder/discord.png" width="80" height="80"><br><br>Jazzeus#9999</div>
+                </a>
+            </div>
+            <div class="column">
+                <div title="Jazzeus"><a href="https://github.com/Jazzeus"><span></span><span></span><img
+                        src="Bilder/github.png" width="80" height="80"><br><br>Jazzeus</div>
+                </a>
+            </div>
+            <div class="column">
+                <div title="_Jazzeus_"><a href="https://twitter.com/_Jazzeus_"><span></span><span></span><img
+                        src="Bilder/twitter.png" width="80" height="80"><br><br>_Jazzeus_</a></div>
+                </a>
+            </div>
+            <div class="column">
+                <div title="JakeGame3"><a
+                        href="https://www.reddit.com/user/JakeGame3"><span></span><span></span><img
+                        src="Bilder/reddit.png" width="80" height="80"><br><br>JakeGame3</a></div>
+                </a>
+            </div>
+            <div class="column">
+                <div title="jaz_zeus"><a href="https://t.me/jaz_zeus"><span></span><span></span><img
+                        src="Bilder/tele.png" width="80" height="80"><br><br>Telegram</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <div class="column">
+                <div title="OWN ANDROID APP"><a href="https://jakobzetzsche.com/app"><span></span><span></span>
+                    <img src="Bilder/app.png" width="100" height="100"><br><br>
+                    <div style="color: red;">OWN ANDROID APP:</div>
+                    <div style="color: #00D0FFFF">"Easy CC"</div>
+                    Currency<br>Conversion</a>
+                </div>
+            </div>
+            <div class="column">
+                <div title="info@jakobzetzsche.com"><a
+                        href="mailto:info@jakobzetzsche.com"><span></span><span></span><img
+                        src="Bilder/mail.png" width="80" height="80"><br><br>Send a mail</a>
+                </div>
+            </div>
+        </div>
+    </images>
+</div>
+
+<style>
+    counter {
+        padding-top: 940px;
+        padding-left: 1740px;
+    }
+</style>
+<footer id="footer">(c) Jakob Zetzsche | 2022 | Icons from icons8.com | particles.js from Vincent Garreau</a></footer>
+<counter>
+    <a href='https://www.free-counters.org/'>free-counters.org</a>
+    <script type='text/javascript'
+            src='https://www.freevisitorcounters.com/auth.php?id=a44f20a130e820bc2c110e5cb9394e6c0e88f376'></script>
+    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/929829/t/1"></script>
+</counter>
+</body>
+
+
+</html>
